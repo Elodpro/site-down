@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(18, 13, 6);
+    
+}
+
+/*Toujours en haut de page*/
+#divtop{
+    position: absolute;
+    height: 2em;
+    width: 100%;
+    right:1px;
+    background-color: #2c2a2aaf;
+    top: 0;
+}
+
+#div1{
+    top: 2em;
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+h1:hover{
+    transform: scale(1.1) ;
+    transition: 0.3s;
+}
+
+h2{
+    color: orange;
+}
+
+/*Toujours en bas de page */
+#bottom-page{
+        position: absolute;
+        height: 7em;
+        width: 100%;
+        right:1px;
+        background-color: #2c2a2aaf;
+        bottom: 0;
+}
+
+#nom{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: orange;
+}
+
+#copyright{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
